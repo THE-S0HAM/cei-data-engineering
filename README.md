@@ -12,10 +12,11 @@ Throughout the internship, participants engage in technical assignments, practic
 
 ## Table of Repo Contents
 
-| S.No | Title | Link |
-|------|-------|------|
-| 1 | Week 1 | [WEEK-1](./WEEK-1) |
-| 1.1 | Week 1 - Assignment | [Assignment 1](./WEEK-1/Assignment/Soham_Deshmukh_CEI_DE_assignment1.ipynb) |
-
----
+| S.No | Title | Link | 
+|------|-------|------| 
+| 1 | Week 1 | [WEEK-1](./WEEK-1) | 
+| 1.1 | Week 1 – Assignment | [WEEK1_Soham_Deshmukh.ipynb](./WEEK-1/Assignment/WEEK1_Soham_Deshmukh.ipynb) | 
+| 2 | Week 2 | [WEEK-2](./WEEK-2) | 
+| 2.1 | Week 2 – Assignment | [week_2_Soham_Deshmukh.ipynb](./WEEK-2/assignment-file/week_2_Soham_Deshmukh.ipynb) | 
+| 2.2 | Week 2 – Dataset | [Sample - Superstore.csv](./WEEK-2/dataset/Sample%20-%20Superstore.csv) | ---
 
