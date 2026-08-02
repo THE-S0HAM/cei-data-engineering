@@ -40,12 +40,7 @@ The program provides a structured, industry-oriented learning experience focused
 Celebal-Excellence-Intern-Data-Engineering/
 │
 ├── README.md                 # This file
-├── LICENSE                   # MIT License
 ├── .gitignore               # Git ignore patterns
-├── CONTRIBUTING.md          # Contribution guidelines
-├── CODE_OF_CONDUCT.md       # Community standards
-├── SECURITY.md              # Security policy
-├── CHANGELOG.md             # Version history
 │
 ├── WEEK-1/                  # Pandas Data Cleaning
 │   ├── README.md
