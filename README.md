@@ -5,7 +5,6 @@
 ![Spark](https://img.shields.io/badge/Spark-4.1+-orange.svg)
 ![Azure](https://img.shields.io/badge/Azure-Data_Factory-blue.svg)
 ![SQL](https://img.shields.io/badge/SQL-Standard-lightgrey.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 🎯 Internship Overview
 
