@@ -1,11 +1,14 @@
+# --------------------------------------------------
 # Python
+# --------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Build artifacts
 build/
-develop-eggs/
 dist/
 downloads/
 eggs/
@@ -17,32 +20,127 @@ sdist/
 var/
 wheels/
 *.egg-info/
-.installed.cfg
 *.egg
+.installed.cfg
+MANIFEST
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# Virtual environments
+# --------------------------------------------------
+# Virtual Environments
+# --------------------------------------------------
+.venv/
 venv/
-ENV/
 env/
-.venv
+ENV/
 
-# IDE
+# --------------------------------------------------
+# Jupyter
+# --------------------------------------------------
+.ipynb_checkpoints/
+
+# --------------------------------------------------
+# IDEs
+# --------------------------------------------------
 .vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
 .idea/
+*.iml
 *.swp
 *.swo
+*~
 
-# OS
+# --------------------------------------------------
+# Operating System
+# --------------------------------------------------
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+ehthumbs.db
+desktop.ini
 
-# Datasets - ignore all except backpacks.csv and combined_dataset.csv
-WEEK-1/Dataset/*.csv
-!WEEK-1/Dataset/backpacks.csv
-!WEEK-1/Dataset/combined_dataset.csv
-!WEEK-1/Dataset/cleaned_dataset.csv
-WEEK-1/Dataset/README.md
+# --------------------------------------------------
+# Environment Variables & Secrets
+# --------------------------------------------------
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+*.csr
+
+secrets.yml
+secrets.yaml
+
+# --------------------------------------------------
+# Logs
+# --------------------------------------------------
+*.log
+logs/
+CHANGELOG.md
+cleanup_guide.md
+REORGANIZATION_SUMMARY.md
+LICENSE
+
+# --------------------------------------------------
+# Databases
+# --------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# --------------------------------------------------
+# Temporary Files
+# --------------------------------------------------
+tmp/
+temp/
+*.tmp
+*.temp
+docs/
+
+# --------------------------------------------------
+# Spark / Delta Temporary Files
+# --------------------------------------------------
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Local Delta transaction logs (generated)
+**/_delta_log/
+
+# --------------------------------------------------
+# Testing
+# --------------------------------------------------
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.dmypy.json
+dmypy.json
+
+# --------------------------------------------------
+# Archives
+# --------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# --------------------------------------------------
+# Generated Output (safe to regenerate)
+# --------------------------------------------------
+WEEK-*/output/
+WEEK-*/*/output/
+
+# Ignore generated parquet files only
+WEEK-*/parquet_data/
