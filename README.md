@@ -5,7 +5,6 @@
 ![Spark](https://img.shields.io/badge/Spark-4.1+-orange.svg)
 ![Azure](https://img.shields.io/badge/Azure-Data_Factory-blue.svg)
 ![SQL](https://img.shields.io/badge/SQL-Standard-lightgrey.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 🎯 Internship Overview
 
@@ -40,12 +39,7 @@ The program provides a structured, industry-oriented learning experience focused
 Celebal-Excellence-Intern-Data-Engineering/
 │
 ├── README.md                 # This file
-├── LICENSE                   # MIT License
 ├── .gitignore               # Git ignore patterns
-├── CONTRIBUTING.md          # Contribution guidelines
-├── CODE_OF_CONDUCT.md       # Community standards
-├── SECURITY.md              # Security policy
-├── CHANGELOG.md             # Version history
 │
 ├── WEEK-1/                  # Pandas Data Cleaning
 │   ├── README.md
