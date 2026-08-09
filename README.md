@@ -1,10 +1,4 @@
-# Celebal Excellence Intern – Data Engineering
-
-![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)
-![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)
-![Spark](https://img.shields.io/badge/Spark-4.1+-orange.svg)
-![Azure](https://img.shields.io/badge/Azure-Data_Factory-blue.svg)
-![SQL](https://img.shields.io/badge/SQL-Standard-lightgrey.svg)
+# Celebal Excellence Internship - Data Engineering
 
 ## 🎯 Internship Overview
 
@@ -26,7 +20,7 @@ The program provides a structured, industry-oriented learning experience focused
 
 | Category | Technologies |
 |----------|--------------|
-| **Programming** | Python, SQL |
+| **Programming** | Python 3.13+, SQL |
 | **Data Processing** | Pandas, NumPy, Apache Spark, PySpark |
 | **Cloud Platform** | Microsoft Azure, Azure Data Factory |
 | **Storage Formats** | CSV, Parquet, Delta Lake |
@@ -36,164 +30,101 @@ The program provides a structured, industry-oriented learning experience focused
 ## 📁 Repository Structure
 
 ```
-Celebal-Excellence-Intern-Data-Engineering/
+cei-data-engineering/
 │
-├── README.md                 # This file
-├── .gitignore               # Git ignore patterns
-│
-├── WEEK-1/                  # Pandas Data Cleaning
+├── Week1_Pandas_Assignment/          # Data Cleaning with Pandas
 │   ├── README.md
-│   ├── Assignment/
-│   ├── Dataset/
-│   ├── Output/
-│   └── Images/
-│
-├── WEEK-2/                  # SQL Fundamentals
-│   ├── README.md
-│   ├── assignment-file/
-│   ├── dataset/
-│   ├── sql/
+│   ├── data/                         # 100+ product datasets
+│   ├── notebook/
+│   │   └── WEEK1_Soham_Deshmukh.ipynb
+│   ├── Practice/
+│   │   ├── basics.ipynb
+│   │   ├── eda.ipynb
+│   │   └── list-tuples.ipynb
 │   └── output/
 │
-├── WEEK-3/                  # Advanced SQL
+├── Week2_SQL_Assignment/             # SQL Fundamentals
 │   ├── README.md
-│   ├── assignment-file/
-│   ├── dataset/
-│   ├── sql/
-│   └── output/
-│
-├── WEEK-4/                  # Azure Data Factory
-│   ├── README.md
-│   ├── assignment/
-│   ├── dataset/
-│   ├── screenshots/
-│   ├── architecture/
-│   └── output/
-│
-├── WEEK-5/                  # Spark Fundamentals
-│   ├── README.md
-│   ├── assignment-file/
 │   ├── data/
+│   │   └── Sample - Superstore.csv
+│   ├── notebook/
+│   │   └── week_2_Soham_Deshmukh.ipynb
+│   └── sql/
+│
+├── Week3_SQL_Assignment/             # Advanced SQL
+│   ├── README.md
+│   ├── data/
+│   │   └── Sample - Superstore.csv
+│   ├── notebook/
+│   │   └── week_3_Soham_Deshmukh.ipynb
+│   └── sql/
+│
+├── Week4_Azure_Assignment/           # Azure Data Factory
+│   ├── README.md
+│   ├── data/
+│   │   └── Sample - Superstore.csv
+│   └── output/
+│       └── WEEK_4_SOHAM_DESHMUKH_CT_CSI_DE_1178.pdf
+│
+├── Week5_PySpark_Assignment/         # Spark Fundamentals
+│   ├── README.md
+│   ├── data/
+│   │   └── Sample - Superstore.csv
+│   └── notebook/
+│       └── week_5_soham_deshmukh.ipynb
+│
+├── Week6_Spark_Assignment/           # Spark Advanced
+│   ├── README.md
+│   ├── data/
+│   │   └── source.csv
+│   ├── notebook/
+│   │   └── week_6_Soham_Deshmukh.ipynb
 │   ├── output/
+│   └── parquet_data/
+│
+├── WEEK_7_Spark_Assignment/          # Delta Lake MERGE
+│   ├── README.md
+│   ├── data/
+│   │   └── Sample - Superstore.csv
+│   ├── notebooks/
+│   │   └── week_7_Soham_Deshmukh.ipynb
+│   ├── delta/
+│   │   └── superstore/
 │   └── screenshots/
 │
-├── WEEK-6/                  # Spark Advanced
+├── WEEK_8_ECommerce_Order_Analytics_System/  # Complete E-Commerce Analytics
 │   ├── README.md
-│   ├── assignment-file/
+│   ├── main.py
+│   ├── requirements.txt
 │   ├── data/
-│   ├── output/
-│   ├── parquet_data/
-│   └── screenshots/
-│
-├── WEEK-7/                  # Delta Lake MERGE
-│   ├── README.md
-│   ├── assignment-file/
-│   ├── data/
-│   ├── screenshots/
-│   ├── report/
+│   │   ├── raw/
+│   │   └── cleaned/
+│   ├── src/
+│   │   ├── data_generation.py
+│   │   └── Soham_Deshmukh_Week_8.ipynb
 │   └── output/
 │
-└── docs/                    # Documentation
-    ├── internship-overview.md
-    ├── datasets.md
-    └── technologies.md
+├── README.md                         # This file
+├── requirements.txt                  # Root dependencies
+├── LICENSE
+└── .gitignore
 ```
 
 ## 📊 Weekly Progress
 
 | Week | Topic | Assignment | Status | Key Technologies |
 |------|-------|------------|--------|------------------|
-| 1 | Pandas Data Cleaning | [WEEK1_Soham_Deshmukh.ipynb](./WEEK-1/Assignment/WEEK1_Soham_Deshmukh.ipynb) | ✅ Complete | Python, Pandas |
-| 2 | SQL Fundamentals | [week_2_Soham_Deshmukh.ipynb](./WEEK-2/assignment-file/week_2_Soham_Deshmukh.ipynb) | ✅ Complete | SQL, SQLite |
-| 3 | Advanced SQL | [week_3_Soham_Deshmukh.ipynb](./WEEK-3/assignment-file/week_3_Soham_Deshmukh.ipynb) | ✅ Complete | SQL, CTEs, Window Functions |
-| 4 | Azure Data Factory | [WEEK_4_SOHAM_DESHMUKH_CT_CSI_DE_1178.pdf](./WEEK-4/WEEK_4_SOHAM_DESHMUKH_CT_CSI_DE_1178.pdf) | ✅ Complete | Azure, Data Factory |
-| 5 | Spark Fundamentals | [week_5_soham_deshmukh.md](./WEEK-5/week_5_soham_deshmukh.md) | ✅ Complete | Spark, PySpark |
-| 6 | Spark Advanced | [week_6_Soham_Deshmukh.ipynb](./WEEK-6/assignment-file/week_6_Soham_Deshmukh.ipynb) | ✅ Complete | Spark, Parquet |
-| 7 | Delta Lake MERGE | [week_7_Soham_Deshmukh.ipynb](./WEEK-7/notebooks/week_7_Soham_Deshmukh.ipynb) | 🚧 In Progress | Delta Lake, Spark |
+| 1 | Pandas Data Cleaning | [WEEK1_Soham_Deshmukh.ipynb](./Week1_Pandas_Assignment/Assignment/WEEK1_Soham_Deshmukh.ipynb) | ✅ Complete | Python, Pandas, EDA |
+| 2 | SQL Fundamentals | [week_2_Soham_Deshmukh.ipynb](./Week2_SQL_Assignment/assignment-file/week_2_Soham_Deshmukh.ipynb) | ✅ Complete | SQL, SQLite, Joins |
+| 3 | Advanced SQL | [week_3_Soham_Deshmukh.ipynb](./Week3_SQL_Assignment/assignment-file/week_3_Soham_Deshmukh.ipynb) | ✅ Complete | SQL, CTEs, Window Functions |
+| 4 | Azure Data Factory | [WEEK_4_SOHAM_DESHMUKH_CT_CSI_DE_1178.pdf](./Week4_Azure_Assignment/WEEK_4_SOHAM_DESHMUKH_CT_CSI_DE_1178.pdf) | ✅ Complete | Azure, Data Factory, Cloud |
+| 5 | Spark Fundamentals | [week_5_soham_deshmukh.ipynb](./Week5_PySpark_Assignment/notebook/week_5_soham_deshmukh.ipynb) | ✅ Complete | Spark, PySpark, DataFrames |
+| 6 | Spark Advanced | [week_6_Soham_Deshmukh.ipynb](./Week6_Spark_Assignment/assignment-file/week_6_Soham_Deshmukh.ipynb) | ✅ Complete | Spark, Parquet, Optimization |
+| 7 | Delta Lake MERGE | [week_7_Soham_Deshmukh.ipynb](./WEEK_7_Spark_Assignment/notebooks/week_7_Soham_Deshmukh.ipynb) | ✅ Complete | Delta Lake, MERGE, Lakehouse |
+| 8 | E-Commerce Analytics | [Complete System](./WEEK_8_ECommerce_Order_Analytics_System/) | ✅ Complete | Python, SQL, ETL, Analytics |
 
-## 🎓 Skills Covered
 
-### Technical Skills
-- **Data Processing**: Pandas operations, data cleaning, transformation
-- **Database Management**: SQL queries, optimization, data modeling
-- **Big Data**: Spark RDDs/DataFrames, distributed processing
-- **Cloud Computing**: Azure services, cloud architecture
-- **Data Storage**: File formats (CSV, Parquet, Delta), data lakes
-- **Pipeline Development**: ETL/ELT design, orchestration, monitoring
-
-### Professional Skills
-- **Version Control**: Git workflows, branching strategies
-- **Documentation**: Technical writing, code comments, READMEs
-- **Problem Solving**: Debugging, optimization, solution design
-- **Project Management**: Task organization, timeline management
-- **Code Quality**: Testing, linting, code reviews
-
-## 🏃 How to Run
-
-### Prerequisites
-- Python 3.12+
-- Jupyter Notebook
-- Git
-- (Optional) Azure account for Week 4
-
-### Setup Instructions
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/Celebal-Excellence-Intern-Data-Engineering.git
-   cd Celebal-Excellence-Intern-Data-Engineering
-   ```
-
-2. **Create virtual environment**
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run Jupyter Notebook**
-   ```bash
-   jupyter notebook
-   ```
-
-### Week-Specific Requirements
-- **Weeks 1-3**: Python, Pandas, SQLite
-- **Week 4**: Azure subscription (free tier available)
-- **Weeks 5-7**: Spark, Delta Lake dependencies
-
-## 📈 Repository Statistics
-
-- **Total Weeks**: 7
-- **Assignments**: 7+ completed projects
-- **Code Files**: 10+ Jupyter notebooks and scripts
-- **Datasets**: 5+ curated datasets
-- **Documentation**: Comprehensive guides and READMEs
-- **Technologies**: 15+ modern data engineering tools
-
-## 👨‍💻 Author
-
-**Soham Deshmukh**  
-Data Engineering Intern @ Celebal Technologies  
-- **Program**: CEI (Celebal Excellence Intern) Program  
-- **Duration**: 15 June 2026 - 15 August 2026  
-- **Focus**: Data Engineering, Cloud Computing, Big Data  
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔗 Useful Links
-
-- [Celebal Technologies](https://www.celebaltech.com/)
-- [Azure Data Factory Documentation](https://docs.microsoft.com/en-us/azure/data-factory/)
-- [Apache Spark Documentation](https://spark.apache.org/docs/latest/)
-- [Delta Lake Documentation](https://docs.delta.io/latest/index.html)
-- [Python Documentation](https://docs.python.org/3/)
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
 
 ---
 
-*This repository serves as a professional portfolio demonstrating Data Engineering skills acquired during the Celebal Excellence Intern Program. All work is original and completed as part of the internship curriculum.*
+**Thank you for visiting this repository!**
